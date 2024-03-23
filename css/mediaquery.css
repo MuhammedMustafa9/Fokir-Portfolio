@@ -1,0 +1,253 @@
+/* `sm` applies to x-small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* Nav Bar */
+  .links label {
+    display: block;
+  }
+  .links ul {
+    max-height: 0;
+    width: 70%;
+    margin: auto;
+    display: block;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    text-align: center;
+    background-color: #333333;
+    overflow: hidden;
+    transition: max-height 1s;
+    -webkit-transition: max-height 1s;
+    -moz-transition: max-height 1s;
+    -ms-transition: max-height 1s;
+    -o-transition: max-height 1s;
+  }
+  .links li {
+    float: none;
+    padding: 10px 0;
+  }
+  /* Home Section */
+  .content h1 {
+    font-size: 30px;
+  }
+
+  /* About Section */
+  .about .picture {
+    width: 100% !important;
+    transform: translate(0px, 0px);
+    -webkit-transform: translate(0px, 0px);
+    -moz-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    -o-transform: translate(0px, 0px);
+    overflow: hidden;
+  }
+  .content {
+    padding: 0;
+  }
+  .info li {
+    width: 100%;
+  }
+  .buttons {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 5px;
+  }
+  .buttons button {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 15px;
+    padding: 10px 30px !important;
+  }
+
+  /* Portfolio Section */
+  .album i {
+    font-size: 25px !important;
+  }
+
+  /* Services Section */
+  .skills {
+    width: 80%;
+    margin: 70px auto 0;
+  }
+
+  .skills .skill {
+    width: 100% !important;
+    padding: 30px 20px !important;
+  }
+
+  /* testimonial Section */
+
+  .inner-slide {
+    padding: 30px 10px !important;
+  }
+
+  .inner-slide .main-image img {
+    width: 70% !important;
+  }
+  .inner-slide .content {
+    margin-top: 20px !important;
+  }
+  .slider {
+    width: 100%;
+  }
+
+  /* Contact Section */
+}
+
+/* `md` applies to small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  .links label {
+    display: block;
+  }
+  .links ul {
+    background-color: #333333;
+    max-height: 0;
+    width: 70%;
+    margin: auto;
+    display: block;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    text-align: center;
+    overflow: hidden;
+    transition: max-height 1s;
+    -webkit-transition: max-height 1s;
+    -moz-transition: max-height 1s;
+    -ms-transition: max-height 1s;
+    -o-transition: max-height 1s;
+  }
+  .links li {
+    float: none;
+    padding: 10px 0;
+  }
+
+  /*  About Section */
+  .profile {
+    border: unset;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+  }
+  .about .content {
+    width: 100%;
+  }
+  .about .picture {
+    width: 80%;
+    margin: auto;
+    transform: translate(0px, 0px);
+    -webkit-transform: translate(0px, 0px);
+    -moz-transform: translate(0px, 0px);
+    -ms-transform: translate(0px, 0px);
+    -o-transform: translate(0px, 0px);
+    overflow: hidden;
+  }
+
+  /* Portfolio Section */
+  .albums .album {
+    width: 100% !important;
+  }
+  .album i {
+    top: 85% !important;
+    left: 85% !important;
+    font-size: 35px;
+  }
+
+  /* Projects Section */
+  .projects .project {
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  /* testimonial Section */
+
+  .inner-slide {
+    background-color: #f1f1f1;
+    padding: 20px 10px;
+  }
+
+  .inner-slide .main-image {
+    width: 100% !important;
+    text-align: center;
+    bottom: 0 !important;
+  }
+  .inner-slide .main-image img {
+    width: 50%;
+  }
+  .inner-slide .content {
+    width: 100% !important;
+  }
+  .inner-slide::after {
+    left: -250px;
+  }
+
+  /* Blog Section */
+  .blog-section .blogs .blog {
+    width: 100%;
+    padding: 15px;
+  }
+
+  /* Contact Section */
+  .contact .contact-form {
+    width: 100%;
+  }
+
+  .contact-form .first,
+  .contact-form .second {
+    width: 100%;
+  }
+
+  .contact-form .inner {
+    width: 100%;
+  }
+}
+
+/* `lg` applies to medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  .buttons button {
+    padding: 10px 10px;
+  }
+
+  .skills .skill {
+    width: 50%;
+    padding: 30px 10px;
+  }
+
+  /* Portfolio Section */
+  .albums .album {
+    width: 50%;
+  }
+  .album i {
+    top: 85%;
+    left: 85%;
+  }
+
+  /* Projects Section */
+
+  /* Testimonial Section */
+  .inner-slide .main-image {
+    width: 30%;
+    z-index: 2;
+    position: relative;
+    bottom: 10px;
+  }
+  .inner-slide .content {
+    width: 70%;
+    position: relative;
+    z-index: 2;
+  }
+
+  /* Contact Section */
+  .contact .contact-form {
+    width: 100%;
+  }
+}
+
+/* `xl` applies to large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+}
+
+/* `xxl` applies to x-large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+}
